@@ -1,0 +1,19 @@
+
+.pagination{
+    margin-top: 4rem;
+}
+.pagination a{
+    border: 1px solid #ee711e;
+    background-color: #ee711e7e;
+    padding: 0.5rem 2rem;
+    margin: 1rem;
+    text-decoration: none;
+}
+.pagination a:hover,
+.pagination a:active,
+.pagination a.active{
+    background-color: #ee711e;
+    font-weight: bold;
+    font-size: 2rem;
+
+}

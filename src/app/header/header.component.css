@@ -1,0 +1,65 @@
+.navbar{
+    background-color: #020636;
+    height: 5rem;
+    min-width: 100vw;
+    border-radius: inherit;
+    border: none;
+}
+.navbar-brand{
+    width: 8rem;
+    padding: 5px 15px;
+}
+img{
+    width: 40px;
+}
+.headerItem{
+    height: 5rem;
+}
+.headerItem:hover,
+.active{
+    border-bottom: 3px solid white;
+}
+.navbar-default .navbar-nav > li > a:hover{
+    color: white;
+    font-weight: bold;
+
+}
+
+.navbar-default .navbar-nav > li>a
+{
+    color: #dd7d3d;
+}
+.navbar-default .navbar-nav > li.active >a,
+.navbar-default .navbar-nav > li.active >a:hover
+{
+    color: #dd7d3d;
+    font-weight: bold;
+   
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus{
+    color: #dd7d3d;
+}
+
+
+
+span.glyphicon-shopping-cart,
+span.glyphicon-credit-card{
+    font-size: 2rem;
+    color: rgb(207, 26, 26);
+}
+span.glyphicon-trash,
+span.glyphicon-pencil{
+    font-size: 2rem;
+    color: white;
+}
+
+.col-sm-12{
+    padding-right: 0px;
+}
+
+.navbar-fixed-top .navbar-collapse{
+    max-height: 100vh;
+    padding-left: 30px;
+}

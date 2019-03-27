@@ -1,0 +1,6 @@
+<form class="col-sm-3 card_items" action="/add-cart" method="POST">
+    <img class="image_product" src="{{product_element.imageUrl}}" alt="">
+    <p>Produit: {{product_element.nom}}</p>
+    <p>Prix: € {{product_element.prix}}</p>
+    <input type="hidden" [value]="product_element._id" name="prodId">
+</form>

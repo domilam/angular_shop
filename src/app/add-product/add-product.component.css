@@ -1,0 +1,70 @@
+form{
+    display: block;
+    width: 100%;
+    /* height: 20rem; */
+    padding: 20px;
+    box-shadow: 5px 5px 5px grey;
+    border-radius: 30px;
+    text-align: left;
+}
+.form-group{
+    display: block;
+    margin: 1rem 0;
+}
+.form-group label{
+    display: inline-block;
+    width: 16rem;
+    margin-left: 2rem;
+    text-align: left;
+}
+.form-group input{
+    display: inline-block;
+    width: 30rem;
+}
+.product_field{
+    display: inline;
+    text-align: center
+}
+
+.product_field_item span{
+    display: inline-block;
+    width: 1rem;
+}
+
+.div_button{
+    text-align: center;
+}
+/* @media (max-width: 1220px){
+    .mainDiv{
+        margin: auto;
+        width: 70%;
+        min-height: 50vh;
+    }
+} */
+@media (max-width: 768px){
+    /* .mainDiv{
+        margin: auto 10px;
+        width: 100%;
+    } */
+    .col-sm-12{
+        padding-left: 0px;
+    }
+    .div_button{
+        text-align: center;
+    }
+    form{
+        text-align: center;
+    }
+    .product_field{
+        display: inline;
+        text-align: center
+    }
+    .form-group input{
+        display: inline;
+    }
+    .form-group label{
+        display:inline-block;
+    }
+    
+}
+

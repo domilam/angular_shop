@@ -1,0 +1,27 @@
+body{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main{
+    display: block;
+    text-align: center;
+    margin-bottom: 2rem;
+    margin-top: 5rem;
+
+
+}
+body, html, main{
+    width: 100vw;
+}
+.container-fluid{
+    padding-left: 0px;
+}
+
+.mainDiv .main-title{
+    background-color: #f0571bcc;
+    height: 50px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    line-height: 1.5;
+}
